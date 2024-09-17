@@ -10,4 +10,5 @@ variable "soft_delete_retention_days" {
 
 variable "resource_group_name" {
   type = string
+  default = "a"
 }

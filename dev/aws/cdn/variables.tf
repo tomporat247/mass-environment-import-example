@@ -6,6 +6,10 @@ variable "website_bucket_arn" {
   type = string
 }
 
+variable "stage" {
+  type = string
+}
+
 variable "default_root_object" {
   type = string
   default = "index.html"

@@ -11,7 +11,3 @@ variable "enable_nat_gateway" {
   type = bool
   default = true
 }
-
-variable "stage" {
-  type = string
-}

@@ -11,7 +11,3 @@ variable "cluster_version" {
 variable "vpc_id" {
   type = string
 }
-
-variable "stage" {
-  type = string
-}

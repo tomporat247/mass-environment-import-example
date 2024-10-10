@@ -7,6 +7,10 @@ variable "cidr" {
   type = string
 }
 
+variable "stage" {
+  type = string
+}
+
 variable "enable_nat_gateway" {
   type = bool
   default = true

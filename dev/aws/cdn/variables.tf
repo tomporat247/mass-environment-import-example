@@ -10,3 +10,7 @@ variable "default_root_object" {
   type = string
   default = "index.html"
 }
+
+variable "stage" {
+  type = string
+}

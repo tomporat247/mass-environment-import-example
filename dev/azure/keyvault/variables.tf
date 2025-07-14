@@ -1,6 +1,6 @@
 variable "name" {
   type = string
-  default = "keyvault-dev"
+  default = "best-team-ever"
 }
 
 variable "soft_delete_retention_days" {
@@ -10,7 +10,7 @@ variable "soft_delete_retention_days" {
 
 variable "resource_group_name" {
   type = string
-  default = "a"
+  default = "hackathon-2025"
 }
 
 variable "no-default-value" {

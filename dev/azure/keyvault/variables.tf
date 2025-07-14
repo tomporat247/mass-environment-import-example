@@ -12,3 +12,7 @@ variable "resource_group_name" {
   type = string
   default = "a"
 }
+
+variable "no-default-value" {
+  type = string
+}
